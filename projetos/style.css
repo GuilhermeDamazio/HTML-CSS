@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+    background-image:linear-gradient(to top, #C37EDB,#B7A6F6, #FC8DCA);
+    background-attachment: fixed;
+    font-family: 'Sriracha', cursive;
+}  
+
+h1{
+    font-family: 'Aboreto', cursive;
+    font-size: 30px;
+    font-style: italic;
+    background-color:#88a3e271;
+    width: 560px;
+}
+
+
+
+
+
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    background-color: #AAECFC;
+    width: 400px;
+}
+
+p{ font-family: 'Sriracha', cursive; 
+}
+
+img{border-width: 20px;
+    padding: auto;
+    margin: auto;}
+
+footer{text-align: center;
+       background-color: darkslateblue;
+}
+
+  
+
+

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pacifico&display=swap');
+
+body{ background-image:linear-gradient(to left,#F2C641, #F2A444,#BF7636,#0D0D0D);
+    background-attachment: fixed;
+    text-align: justify;
+    
+
+}
+
+header{font-family: 'Pacifico', cursive;
+    background-color: lightskyblue;
+    padding: 2px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+h1{ background-color: red;
+    margin: 20px;
+
+}
+
+main{font-family: 'Oswald', sans-serif;
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 10px;
+    
+
+}
+
+footer{ background-color: cornflowerblue;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+p{color: rgba(231, 17, 167, 0.726);
+    
+}
+
+
+div:hover{color: red;
+        background-color: aquamarine;
+        
+        inline-size: 170px;       
+}
+
