@@ -46,3 +46,4 @@ div:hover{color: red;
         inline-size: 170px;       
 }
 
+div > class {color: aliceblue;}
