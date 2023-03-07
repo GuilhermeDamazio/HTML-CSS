@@ -5,6 +5,15 @@ body{
     background-image:linear-gradient(to top, #C37EDB,#B7A6F6, #FC8DCA);
     background-attachment: fixed;
     font-family: 'Sriracha', cursive;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+     "header header header"
+     "aside main aside"
+     ;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: auto 100vh auto;
+     
 }  
 
 h1{
@@ -16,9 +25,13 @@ h1{
 }
 
 
+.o-header {grid-area: header;}
 
+.o-aside {grid-area: aside;}
 
+.o-main{grid-area: main;}
 
+.o-footer{grid-area: footer;}
 
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -32,12 +45,13 @@ p{ font-family: 'Sriracha', cursive;
 
 img{border-width: 20px;
     padding: auto;
-    margin: auto;}
-
-footer{text-align: center;
-       background-color: darkslateblue;
-       padding-top: 1px;
-       margin-top: 10px;
+   
 }
 
-  div {display: inline-block;}
+.o-header, .o-aside, .o-main, .o-footer {
+    background: #BC20E2;
+    color: #FDFDFD;
+  }
+
+
+ 
